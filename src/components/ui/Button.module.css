@@ -1,0 +1,49 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 2rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+
+/* ── Primary ── */
+.primary {
+  background: var(--blue);
+  color: #fff;
+}
+.primary:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(45, 127, 249, 0.35);
+}
+
+/* ── Ghost ── */
+.ghost {
+  background: transparent;
+  color: var(--white);
+  border: 1px solid rgba(240, 244, 255, 0.2);
+}
+.ghost:hover {
+  border-color: rgba(240, 244, 255, 0.5);
+  background: rgba(240, 244, 255, 0.05);
+  transform: translateY(-2px);
+}
+
+/* ── Outline (pricing cards etc.) ── */
+.outline {
+  background: transparent;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  width: 100%;
+  justify-content: center;
+}
+.outline:hover {
+  background: var(--blue);
+  color: #fff;
+}

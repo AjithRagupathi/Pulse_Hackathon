@@ -1,0 +1,29 @@
+:root {
+  /* ── Colors ── */
+  --navy:    #0F1B2D;
+  --charcoal: #1E2A3A;
+  --blue:    #2D7FF9;
+  --teal:    #00D4AA;
+  --white:   #F0F4FF;
+  --muted:   #8A9BB5;
+  --card:    rgba(30, 42, 58, 0.7);
+  --border:  rgba(45, 127, 249, 0.15);
+
+  /* ── Typography ── */
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  /* ── Spacing ── */
+  --section-padding: 6rem 4rem;
+  --section-padding-mobile: 4rem 1.5rem;
+
+  /* ── Radius ── */
+  --radius-sm:  8px;
+  --radius-md:  12px;
+  --radius-lg:  16px;
+  --radius-xl:  20px;
+
+  /* ── Transitions ── */
+  --transition-base: all 0.2s ease;
+  --transition-slow: all 0.3s ease;
+}
