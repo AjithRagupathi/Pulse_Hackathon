@@ -1,0 +1,58 @@
+.footer {
+  background: var(--charcoal);
+  border-top: 1px solid var(--border);
+  padding: 3rem 4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 800;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.dot {
+  color: var(--blue);
+}
+
+.by {
+  font-weight: 300;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-family: var(--font-body);
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  color: var(--muted);
+  font-size: 0.82rem;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--white);
+}
+
+.copy {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+}
